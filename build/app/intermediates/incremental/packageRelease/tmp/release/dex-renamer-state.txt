@@ -1,0 +1,4 @@
+#Mon Mar 06 00:10:14 CST 2023
+base.0=C\:\\Users\\Administrator\\Desktop\\new\\flutter-firebase-auth-master - Copy - Copy - Copy (3)\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

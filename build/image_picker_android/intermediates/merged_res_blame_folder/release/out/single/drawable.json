@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\new\\flutter-firebase-auth-master - Copy - Copy - Copy (3)\\build\\image_picker_android\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\8e86e615f21ac3758e97e94e18045107\\core-1.8.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\new\\flutter-firebase-auth-master - Copy - Copy - Copy (3)\\build\\image_picker_android\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\8e86e615f21ac3758e97e94e18045107\\core-1.8.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\new\\flutter-firebase-auth-master - Copy - Copy - Copy (3)\\build\\image_picker_android\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\8e86e615f21ac3758e97e94e18045107\\core-1.8.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\new\\flutter-firebase-auth-master - Copy - Copy - Copy (3)\\build\\image_picker_android\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\8e86e615f21ac3758e97e94e18045107\\core-1.8.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]

@@ -1,0 +1,15 @@
+# Target labels
+ nuget-populate
+# Source files and their labels
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/7bb0ed4cda951f011ce9ed3811262a64/nuget-populate.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/d3d31f842e4ff3a9225506faae9e0188/nuget-populate-complete.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-build.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-configure.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-copyfile.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-download.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-install.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-mkdir.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-patch.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-test.rule
+C:/Users/Administrator/Desktop/new/flutter-firebase-auth-master - Copy - Copy - Copy (3)/build/windows/_deps/nuget-subbuild/CMakeFiles/0e976490a8ddb10e35448446113b16c9/nuget-populate-update.rule

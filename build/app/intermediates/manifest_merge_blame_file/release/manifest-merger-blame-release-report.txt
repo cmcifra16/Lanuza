@@ -1,0 +1,562 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lanuza_resident"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="39" />
+9-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:3:5-5:15
+12        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+12-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:4:9-89
+12-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:4:19-86
+13
+14        <intent>
+14-->[:file_picker] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:18
+15            <action android:name="android.intent.action.GET_CONTENT" />
+15-->[:file_picker] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-72
+15-->[:file_picker] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:21-69
+16
+17            <data android:mimeType="*/*" />
+17-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:17-75
+18        </intent>
+19        <intent>
+19-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:8:9-10:18
+20            <action android:name="android.support.customtabs.action.CustomTabsService" />
+20-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:13-90
+20-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:21-87
+21        </intent>
+22
+23        <package android:name="com.facebook.katana" />
+23-->[com.facebook.android:facebook-common:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89e05e5055895f8db88b1a21c68fa074\jetified-facebook-common-14.1.1\AndroidManifest.xml:30:9-55
+23-->[com.facebook.android:facebook-common:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89e05e5055895f8db88b1a21c68fa074\jetified-facebook-common-14.1.1\AndroidManifest.xml:30:18-52
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:6:5-66
+26-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:6:22-64
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+27-->[:geolocator_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-77
+27-->[:geolocator_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:22-74
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+28-->[:file_picker] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+28-->[:file_picker] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+29-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:8:5-79
+30-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:8:22-76
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+31-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+32    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+32-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:28:5-79
+32-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:28:22-76
+33
+34    <permission
+34-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.lanuza_resident.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.lanuza_resident.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:26:22-94
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c9fd3afb83a3e069fa6eb61ac84a83\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+39-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c9fd3afb83a3e069fa6eb61ac84a83\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+40
+41    <application
+42        android:name="android.app.Application"
+42-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:10:9-42
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:28:18-86
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:11:9-43
+45        android:label="LanuzaAPP"
+45-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:9:9-34
+46        android:supportsRtl="true" >
+46-->[com.facebook.android:facebook-login:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a3cefbe877bd6b22350e862ae9cc0121\jetified-facebook-login-14.1.1\AndroidManifest.xml:28:18-44
+47        <meta-data
+47-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:13:9-15:54
+48            android:name="com.facebook.sdk.ApplicationId"
+48-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:14:12-57
+49            android:value="@string/facebook_app_id" />
+49-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:15:12-51
+50        <meta-data
+50-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:16:8-18:59
+51            android:name="com.facebook.sdk.ClientToken"
+51-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:17:12-55
+52            android:value="@string/facebook_client_token" />
+52-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:18:12-57
+53
+54        <activity
+54-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:20:9-23:48
+55            android:name="com.facebook.FacebookActivity"
+55-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:20:19-63
+56            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+56-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:21:13-117
+57            android:label="@string/app_name"
+57-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:23:13-45
+58            android:theme="@style/com_facebook_activity_theme" />
+58-->[com.facebook.android:facebook-common:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89e05e5055895f8db88b1a21c68fa074\jetified-facebook-common-14.1.1\AndroidManifest.xml:37:13-63
+59        <activity
+59-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:24:9-33:20
+60            android:name="com.facebook.CustomTabActivity"
+60-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:25:13-58
+61            android:exported="true" >
+61-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:26:13-36
+62            <intent-filter>
+62-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:27:13-32:29
+63                <action android:name="android.intent.action.VIEW" />
+63-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:17-69
+63-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:17-76
+65-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:17-78
+66-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:27-75
+67
+68                <data android:scheme="@string/fb_login_protocol_scheme" />
+68-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:17-75
+68-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:23-72
+69            </intent-filter>
+70            <intent-filter>
+70-->[com.facebook.android:facebook-common:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89e05e5055895f8db88b1a21c68fa074\jetified-facebook-common-14.1.1\AndroidManifest.xml:43:13-52:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:17-69
+71-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:17-76
+73-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:17-78
+74-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:27-75
+75
+76                <data
+76-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:17-75
+77                    android:host="cct.com.example.lanuza_resident"
+78                    android:scheme="fbconnect" />
+78-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:23-72
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:34:9-54:20
+82            android:name="com.example.firebase_auth_demo.MainActivity"
+82-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:35:13-41
+83            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+83-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:39:13-163
+84            android:exported="true"
+84-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:36:13-36
+85            android:hardwareAccelerated="true"
+85-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:40:13-47
+86            android:launchMode="singleTop"
+86-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:37:13-43
+87            android:theme="@style/LaunchTheme"
+87-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:38:13-47
+88            android:windowSoftInputMode="adjustResize" >
+88-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:41:13-55
+89
+90            <!--
+91                 Specifies an Android theme to apply to this Activity as soon as
+92                 the Android process has started. This theme is visible to the user
+93                 while the Flutter UI initializes. After that, this theme continues
+94                 to determine the Window background behind the Flutter UI.
+95            -->
+96            <meta-data
+96-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:46:13-49:17
+97                android:name="io.flutter.embedding.android.NormalTheme"
+97-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:47:15-70
+98                android:resource="@style/NormalTheme" />
+98-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:48:15-52
+99
+100            <intent-filter>
+100-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:50:13-53:29
+101                <action android:name="android.intent.action.MAIN" />
+101-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:51:17-68
+101-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:51:25-66
+102
+103                <category android:name="android.intent.category.LAUNCHER" />
+103-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:52:17-76
+103-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:52:27-74
+104            </intent-filter>
+105        </activity>
+106        <!--
+107             Don't delete the meta-data below.
+108             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+109        -->
+110        <meta-data
+110-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:57:9-59:33
+111            android:name="flutterEmbedding"
+111-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:58:13-44
+112            android:value="2" />
+112-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:59:13-30
+113
+114        <service
+114-->[:cloud_firestore] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[:cloud_firestore] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\65a1b80632a8c8fa962d324e493e08c4\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+118            <meta-data
+118-->[:cloud_firestore] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+119-->[:cloud_firestore] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:cloud_firestore] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[:firebase_auth] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+122                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+122-->[:firebase_auth] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:firebase_auth] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+124            <meta-data
+124-->[:firebase_storage] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+125                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+125-->[:firebase_storage] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[:firebase_storage] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+127            <meta-data
+127-->[:firebase_core] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+128                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+128-->[:firebase_core] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[:firebase_core] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+131                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\df1c1f7641faef2778d43a485c57596b\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:19:13-21:85
+134                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+134-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\df1c1f7641faef2778d43a485c57596b\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:20:17-111
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\df1c1f7641faef2778d43a485c57596b\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:21:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21c01d0a3300395eb249d4a1740ffa6a\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+137                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+137-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21c01d0a3300395eb249d4a1740ffa6a\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21c01d0a3300395eb249d4a1740ffa6a\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+139        </service>
+140        <service
+140-->[:geolocator_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:56
+141            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+141-->[:geolocator_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-77
+142            android:enabled="true"
+142-->[:geolocator_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-35
+143            android:exported="false"
+143-->[:geolocator_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+144            android:foregroundServiceType="location" />
+144-->[:geolocator_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:14:13-53
+145
+146        <provider
+146-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+147            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+147-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+148            android:authorities="com.example.lanuza_resident.flutter.image_provider"
+148-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+149            android:exported="false"
+149-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+150            android:grantUriPermissions="true" >
+150-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+151            <meta-data
+151-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+152                android:name="android.support.FILE_PROVIDER_PATHS"
+152-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+153                android:resource="@xml/flutter_image_picker_file_paths" />
+153-->[:image_picker_android] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+154        </provider>
+155
+156        <activity
+156-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:14:9-18:47
+157            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+157-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:15:13-104
+158            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+158-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:16:13-137
+159            android:exported="false"
+159-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:17:13-37
+160            android:theme="@style/AppTheme" />
+160-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:18:13-44
+161        <activity
+161-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:19:9-22:55
+162            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+162-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:20:13-112
+163            android:exported="false"
+163-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:21:13-37
+164            android:theme="@style/ThemeTransparent" />
+164-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:22:13-52
+165        <activity
+165-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:23:9-26:55
+166            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+166-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:24:13-106
+167            android:exported="false"
+167-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:25:13-37
+168            android:theme="@style/ThemeTransparent" />
+168-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:26:13-52
+169        <activity
+169-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:27:9-31:55
+170            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+170-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:28:13-126
+171            android:exported="false"
+171-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:29:13-37
+172            android:launchMode="singleInstance"
+172-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:30:13-48
+173            android:theme="@style/ThemeTransparent" />
+173-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:31:13-52
+174        <activity
+174-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:32:9-36:55
+175            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+175-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:33:13-120
+176            android:exported="false"
+176-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:34:13-37
+177            android:launchMode="singleInstance"
+177-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:35:13-48
+178            android:theme="@style/ThemeTransparent" />
+178-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:36:13-52
+179
+180        <receiver
+180-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:38:9-41:40
+181            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+181-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:39:13-111
+182            android:enabled="true"
+182-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:40:13-35
+183            android:exported="false" />
+183-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:41:13-37
+184
+185        <meta-data
+185-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:43:9-45:36
+186            android:name="io.flutter.embedded_views_preview"
+186-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:44:13-61
+187            android:value="true" />
+187-->[:flutter_inappwebview] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:45:13-33
+188
+189        <service
+189-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:11:9-15:56
+190            android:name="com.lyokone.location.FlutterLocationService"
+190-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:12:13-71
+191            android:enabled="true"
+191-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:13:13-35
+192            android:exported="false"
+192-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+193            android:foregroundServiceType="location" />
+193-->[:location] C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\location\intermediates\library_manifest\release\AndroidManifest.xml:15:13-53
+194
+195        <activity android:name="com.facebook.CustomTabMainActivity" />
+195-->[com.facebook.android:facebook-common:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89e05e5055895f8db88b1a21c68fa074\jetified-facebook-common-14.1.1\AndroidManifest.xml:38:9-71
+195-->[com.facebook.android:facebook-common:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89e05e5055895f8db88b1a21c68fa074\jetified-facebook-common-14.1.1\AndroidManifest.xml:38:19-68
+196        <activity
+196-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+197            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+197-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+198            android:excludeFromRecents="true"
+198-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+199            android:exported="false"
+199-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+200-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+201        <!--
+202            Service handling Google Sign-In user revocation. For apps that do not integrate with
+203            Google Sign-In, this service will never be started.
+204        -->
+205        <service
+205-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+206            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+206-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+207            android:exported="true"
+207-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+208            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+208-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+209            android:visibleToInstantApps="true" />
+209-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf5b974c58164622e4fbd6b8eeaea49c\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+210
+211        <activity
+211-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+212            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+212-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+213            android:excludeFromRecents="true"
+213-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+214            android:exported="true"
+214-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+215            android:launchMode="singleTask"
+215-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+216-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+217            <intent-filter>
+217-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+218                <action android:name="android.intent.action.VIEW" />
+218-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:17-69
+218-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:25-66
+219
+220                <category android:name="android.intent.category.DEFAULT" />
+220-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:17-76
+220-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:27-73
+221                <category android:name="android.intent.category.BROWSABLE" />
+221-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:17-78
+221-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:27-75
+222
+223                <data
+223-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:17-75
+224                    android:host="firebase.auth"
+225                    android:path="/"
+226                    android:scheme="genericidp" />
+226-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:23-72
+227            </intent-filter>
+228        </activity>
+229        <activity
+229-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+230            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+230-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+231            android:excludeFromRecents="true"
+231-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+232            android:exported="true"
+232-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+233            android:launchMode="singleTask"
+233-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+234            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+234-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+235            <intent-filter>
+235-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef4fcafab28b375fa4cfff55042b66c5\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+236                <action android:name="android.intent.action.VIEW" />
+236-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:17-69
+236-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:28:25-66
+237
+238                <category android:name="android.intent.category.DEFAULT" />
+238-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:17-76
+238-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:29:27-73
+239                <category android:name="android.intent.category.BROWSABLE" />
+239-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:17-78
+239-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:30:27-75
+240
+241                <data
+241-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:17-75
+242                    android:host="firebase.auth"
+243                    android:path="/"
+244                    android:scheme="recaptcha" />
+244-->C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\android\app\src\main\AndroidManifest.xml:31:23-72
+245            </intent-filter>
+246        </activity>
+247        <activity
+247-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+248            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+248-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+249            android:exported="false"
+249-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+250            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+250-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+251
+252        <provider
+252-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\65a1b80632a8c8fa962d324e493e08c4\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+253            android:name="com.google.firebase.provider.FirebaseInitProvider"
+253-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\65a1b80632a8c8fa962d324e493e08c4\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+254            android:authorities="com.example.lanuza_resident.firebaseinitprovider"
+254-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\65a1b80632a8c8fa962d324e493e08c4\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+255            android:directBootAware="true"
+255-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\65a1b80632a8c8fa962d324e493e08c4\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+256            android:exported="false"
+256-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\65a1b80632a8c8fa962d324e493e08c4\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+257            android:initOrder="100" />
+257-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\65a1b80632a8c8fa962d324e493e08c4\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+258
+259        <meta-data
+259-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+260            android:name="com.google.android.gms.version"
+260-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+261            android:value="@integer/google_play_services_version" />
+261-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+262        <!--
+263         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+264         with the application context. This config is merged in with the host app's manifest,
+265         but there can only be one provider with the same authority activated at any given
+266         point; so if the end user has two or more different apps that use Facebook SDK, only the
+267         first one will be able to use the provider. To work around this problem, we use the
+268         following placeholder in the authority to identify each host application as if it was
+269         a completely different provider.
+270        -->
+271        <provider
+271-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:41:9-44:40
+272            android:name="com.facebook.internal.FacebookInitProvider"
+272-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:42:13-70
+273            android:authorities="com.example.lanuza_resident.FacebookInitProvider"
+273-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:43:13-72
+274            android:exported="false" />
+274-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:44:13-37
+275
+276        <receiver
+276-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:46:9-52:20
+277            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+277-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:47:13-86
+278            android:exported="false" >
+278-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:48:13-37
+279            <intent-filter>
+279-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:49:13-51:29
+280                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+280-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:50:17-95
+280-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:50:25-92
+281            </intent-filter>
+282        </receiver>
+283        <receiver
+283-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:53:9-59:20
+284            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+284-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:54:13-118
+285            android:exported="false" >
+285-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:55:13-37
+286            <intent-filter>
+286-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:56:13-58:29
+287                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+287-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:57:17-103
+287-->[com.facebook.android:facebook-core:14.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ad76692ecff6880bf36bbca39699aa30\jetified-facebook-core-14.1.1\AndroidManifest.xml:57:25-100
+288            </intent-filter>
+289        </receiver>
+290
+291        <uses-library
+291-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+292            android:name="androidx.window.extensions"
+292-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+293            android:required="false" />
+293-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+294        <uses-library
+294-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+295            android:name="androidx.window.sidecar"
+295-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+296            android:required="false" />
+296-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+297
+298        <provider
+298-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c43ceae582431b7f6fd11e3d4300fe46\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+299            android:name="androidx.startup.InitializationProvider"
+299-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c43ceae582431b7f6fd11e3d4300fe46\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+300            android:authorities="com.example.lanuza_resident.androidx-startup"
+300-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c43ceae582431b7f6fd11e3d4300fe46\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+301            android:exported="false" >
+301-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c43ceae582431b7f6fd11e3d4300fe46\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+302            <meta-data
+302-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c43ceae582431b7f6fd11e3d4300fe46\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+303                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+303-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c43ceae582431b7f6fd11e3d4300fe46\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+304                android:value="androidx.startup" />
+304-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c43ceae582431b7f6fd11e3d4300fe46\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+305            <meta-data
+305-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3a18f9ac1ca497df1b4f90f5ed0fac93\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+306                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+306-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3a18f9ac1ca497df1b4f90f5ed0fac93\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+307                android:value="androidx.startup" />
+307-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3a18f9ac1ca497df1b4f90f5ed0fac93\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+308        </provider>
+309    </application>
+310
+311</manifest>

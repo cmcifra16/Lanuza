@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\NEW\FLUTTER-FIREBASE-AUTH-MASTER - COPY - COPY - COPY (3)\BUILD\WINDOWS\CMAKEFILES\37C639EDC4FF14954C4C4B1B6CED632B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

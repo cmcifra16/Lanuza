@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-copyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\0e976490a8ddb10e35448446113b16c9\nuget-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\d3d31f842e4ff3a9225506faae9e0188\nuget-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\7bb0ed4cda951f011ce9ed3811262a64\nuget-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Administrator\Desktop\new\flutter-firebase-auth-master - Copy - Copy - Copy (3)\build\windows\_deps\nuget-subbuild\CMakeFiles\nuget-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5ADC745-083F-3D47-973D-88DFC7F5CDA0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
